@@ -16,10 +16,9 @@ Y_Test = Y_Test.reshape((Y_Test.shape[0],1))
 LogReg=LogisticRegression()
 
 #Uncomment this only after your Logistic Regression Class has been Completed
-"""
+
 weight=LogReg.train(X_Train,Y_Train)
 Y_predict=np.array(LogReg.predict_label(X_Test,weight))
 
 
 print (LogReg.calculateAccuracy(Y_predict,Y_Test))
-"""
